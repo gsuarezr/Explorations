@@ -71,15 +71,6 @@ Para algunos ejemplos el algoritmo puede ser muy lento sin embargo sin falla enc
   
 new python segundo.py "[5, 13, 1, 15], [9, 0, 11, 8], [2, 7, 4, 12], [3, 6, 14, 10]"
   
-----------------                                 
-|5  |13 |1  |15 |
-----------------
-|9  |0  |11 |8  |
-----------------
-|2  |7  |4  |12 |       .............   
-----------------
-|3  |6  |14 |10 |
-----------------
 ----------------
 |1  |2  |3  |4  |
 ----------------
@@ -89,4 +80,7 @@ new python segundo.py "[5, 13, 1, 15], [9, 0, 11, 8], [2, 7, 4, 12], [3, 6, 14, 
 ----------------
 |13 |14 |15 |0  |
 ----------------
+  
+  
+# El verdadero output se muestra en el jupyter notebook, debido a lo extenso que es
   
