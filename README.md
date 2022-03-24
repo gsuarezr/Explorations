@@ -1,10 +1,27 @@
 # Prueba_Open_Python
 Este repo es la implementacion de los retos de python propuestos por OpenBootCamp
 
-
-
+# Segundo Reto
+El segundo reto se implemento en el script segundo.py, el input de este script es una matriz pasada como un string, se puede apreciar mejor el uso del script en los ejemplos, para la solucion se uso el algoritmo A* con la distancia de manhattan como funcion heuristica
 
 ## Ejemplos Segundo Reto:
+
+python segundo.py "[1, 2, 3, 4], [5, 6, 8, 11], [9, 10, 7, 12], [13, 15, 14, 0]"
+No es soluble se retorna None
+
+La funcion retorna None ese print es para visualizacion
+
+python segundo.py "[1, 2],[3,4]"                                                
+Traceback (most recent call last):
+  File "/mnt/c/Users/gerar/OneDrive - University of Gdansk (for Students)/new/segundo.py", line 167, in <module>
+    PuzzleFrame(state).solvePuzzle()
+  File "/mnt/c/Users/gerar/OneDrive - University of Gdansk (for Students)/new/segundo.py", line 135, in solvePuzzle
+    if not self.is_solvable():
+  File "/mnt/c/Users/gerar/OneDrive - University of Gdansk (for Students)/new/segundo.py", line 108, in is_solvable
+    raise NameError('Las dimensiones de la matriz no son validas, fuera del rango especificado')
+NameError: Las dimensiones de la matriz no son validas, fuera del rango especificado
+ 
+ 
  python segundo.py "[1, 2, 3, 4,4], [5, 6, 8, 11,4], [9, 10, 7, 12,4], [13, 15, 14, 0,4]"
 Traceback (most recent call last):
   File "/mnt/c/Users/gerar/OneDrive - University of Gdansk (for Students)/new/segundo.py", line 167, in <module>
@@ -16,7 +33,6 @@ Traceback (most recent call last):
 NameError: Las dimensiones de la matriz no son validas, la matriz no es cuadrada
   
 ### Para algunos ejemplos el algoritmo puede ser muy lento sin embargo sin falla encuentra la solucion, se intento usar el algoritmo de Dijkstra pero resulto ser mas lento al final:
-  
 new python segundo.py "[5, 13, 1, 15], [9, 0, 11, 8], [2, 7, 4, 12], [3, 6, 14, 10]"
 ----------------
 |5  |13 |1  |15 |
