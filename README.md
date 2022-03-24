@@ -67,7 +67,7 @@ Traceback (most recent call last):
     raise NameError('Las dimensiones de la matriz no son validas, la matriz no es cuadrada')   
 NameError: Las dimensiones de la matriz no son validas, la matriz no es cuadrada
   
-# Para algunos ejemplos el algoritmo puede ser muy lento sin embargo sin falla encuentra la solucion, se intento usar el algoritmo de Dijkstra pero resulto ser mas lento al final:
+Para algunos ejemplos el algoritmo puede ser muy lento sin embargo sin falla encuentra la solucion, se intento usar el algoritmo de Dijkstra pero resulto ser mas lento al final:
   
 new python segundo.py "[5, 13, 1, 15], [9, 0, 11, 8], [2, 7, 4, 12], [3, 6, 14, 10]"
 ----------------
