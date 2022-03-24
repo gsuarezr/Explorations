@@ -102,8 +102,10 @@ class PuzzleFrame:
         # Detemina si un estado es soluble, algunos no lo son por ejemplo https://www.youtube.com/watch?v=YI1WqYKHi78
         width = len(state[0])
         #Vemos si esta en el rango especificado
+        if width!=len(state):
+            raise NameError('Las dimensiones de la matriz no son validas, la matriz no es cuadrada')   
         if (width>10) or (width<3):
-            raise NameError('Las dimensiones de la matriz no son validas')
+            raise NameError('Las dimensiones de la matriz no son validas, fuera del rango especificado')
         input_list=flatten(state)
         pos0=[(i,state[i].index(0))  if 0 in state[i] else None for i in range(width)]
         zero_location=next(item for item in pos0 if item is not None)        
@@ -133,14 +135,14 @@ class PuzzleFrame:
         if not self.is_solvable():
             print('No es soluble se retorna None')
             return None
-        n=len(state[0])
-        flattened= flatten(state)
+        n=len(self.state[0])
+        flattened= flatten(self.state)
         goal = list(range(1, len(flattened)))+[0]
     #Checa que la matriz sea cuadrada
         if len(flattened) != n**2:
             steps, frontierSize, err = 0, 0, -1
         else:
-            steps, frontierSize, solutions = self.Astar(state,self.state_cons(goal,n),self.Manhattan_distance)
+            steps, frontierSize, solutions = self.Astar(self.state,self.state_cons(goal,n),self.Manhattan_distance)
             err = 0
         for i in solutions[1:]:
             t = PuzzleFrame(i)

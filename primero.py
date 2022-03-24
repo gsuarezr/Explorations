@@ -25,6 +25,8 @@ def reto1(num1,num2):
         nums.append(numero)
     nums=flatten(nums)
     nums=[int(x) for x in nums if num1<= int(x) <= num2]
+    if num2<num1:
+        raise NameError('Se ingreso un numero no valido el primer numero debe ser menor al segundo')
     return sorted(nums),len(nums)
 
 
@@ -33,3 +35,4 @@ if __name__ == "__main__":
     num1,num2=int(num1),int(num2)
     z=reto1(num1,num2)
     print("Tenemos "+str(z[1])+" numeros invertidos validos, los cuales son "+', '.join([str(i) for i in z[0]]))
+    #print(z)
