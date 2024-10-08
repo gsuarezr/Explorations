@@ -1,0 +1,2170 @@
+[
+  {
+    "key": "2QCIRECI",
+    "version": 7984,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/2QCIRECI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/2QCIRECI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2QCIRECI",
+      "version": 7984,
+      "itemType": "webpage",
+      "title": "Phys. Rev. X 14, 031054 (2024) - Geometric Landscape Annealing as an Optimization Principle Underlying the Coherent Ising Machine",
+      "creators": [],
+      "abstractNote": "",
+      "websiteTitle": "",
+      "websiteType": "",
+      "date": "",
+      "shortTitle": "",
+      "url": "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.14.031054",
+      "accessDate": "2024-10-02T12:47:24Z",
+      "language": "",
+      "rights": "",
+      "extra": "tex.ids= Physb",
+      "tags": [],
+      "collections": [
+        "ZPJXNNJ7"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/CPGDWAJT"
+      },
+      "dateAdded": "2024-10-02T12:47:06Z",
+      "dateModified": "2024-10-02T12:47:31Z"
+    }
+  },
+  {
+    "key": "Y9HGTX3Q",
+    "version": 7981,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/Y9HGTX3Q",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/Y9HGTX3Q",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Yamamura et al.",
+      "parsedDate": "2024-09-27",
+      "numChildren": 0
+    },
+    "data": {
+      "key": "Y9HGTX3Q",
+      "version": 7981,
+      "itemType": "journalArticle",
+      "title": "Geometric Landscape Annealing as an Optimization Principle Underlying the Coherent Ising Machine",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Atsushi",
+          "lastName": "Yamamura"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hideo",
+          "lastName": "Mabuchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Surya",
+          "lastName": "Ganguli"
+        }
+      ],
+      "abstractNote": "Given the fundamental importance of combinatorial optimization across many diverse domains, there has been widespread interest in the development of unconventional physical computing architectures that can deliver better solutions with lower resource costs. However, a theoretical understanding of their performance remains elusive. We develop such understanding for the case of the coherent Ising machine (CIM), a network of optical parametric oscillators that can be applied to any quadratic unconstrained binary optimization problem. We focus on how the CIM finds low-energy solutions of the Sherrington-Kirkpatrick spin glass. As the laser gain of this system is annealed, the CIM interpolates between gradient descent on coupled soft spins to descent on coupled binary spins. By combining the Kac-Rice formula, the replica method, and supersymmetry breaking, we develop a detailed understanding of the evolving geometry of the high-dimensional energy landscape of the CIM as the laser gain increases, finding several phase transitions in the landscape, from flat to rough to rigid. Additionally, we develop a novel cavity method that provides a geometric interpretation of supersymmetry breaking in terms of the reactivity of a rough landscape to specific external perturbations. Our energy landscape theory successfully matches numerical experiments, provides geometric insights into the principles of CIM operation, and yields optimal annealing schedules.\n            \n              \n              \n                \n                  Published by the American Physical Society\n                  2024",
+      "publicationTitle": "Physical Review X",
+      "volume": "14",
+      "issue": "3",
+      "pages": "031054",
+      "date": "2024-9-27",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Phys. Rev. X",
+      "language": "en",
+      "DOI": "10.1103/PhysRevX.14.031054",
+      "ISSN": "2160-3308",
+      "shortTitle": "",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevX.14.031054",
+      "accessDate": "2024-10-02T12:46:58Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "ZPJXNNJ7"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:46:58Z",
+      "dateModified": "2024-10-02T12:46:58Z"
+    }
+  },
+  {
+    "key": "RS4ZA5L7",
+    "version": 7978,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/RS4ZA5L7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/RS4ZA5L7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Nartallo-Kaluarachchi et al.",
+      "parsedDate": "2024-09-26",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "RS4ZA5L7",
+      "version": 7978,
+      "itemType": "journalArticle",
+      "title": "Broken detailed balance and entropy production in directed networks",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Ram\u00f3n",
+          "lastName": "Nartallo-Kaluarachchi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Malbor",
+          "lastName": "Asllani"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gustavo",
+          "lastName": "Deco"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Morten L.",
+          "lastName": "Kringelbach"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alain",
+          "lastName": "Goriely"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Renaud",
+          "lastName": "Lambiotte"
+        }
+      ],
+      "abstractNote": "The structure of a complex network plays a crucial role in determining its dynamical properties. In this paper\u00a0, we show that the the degree to which a network is directed and hierarchically organized is closely associated with the degree to which its dynamics break detailed balance and produce entropy. We consider a range of dynamical processes and show how different directed network features affect their entropy production rate. We begin with an analytical treatment of a two-node network followed by numerical simulations of synthetic networks using the preferential attachment and Erd\u00f6s-Renyi algorithms. Next, we analyze a collection of 97 empirical networks to determine the effect of complex real-world topologies. Finally, we present a simple method for inferring broken detailed balance and directed network structure from multivariate time\u00a0series and apply our method to identify non-equilibrium dynamics and hierarchical organisation in both human neuroimaging and financial time\u00a0series. Overall, our results shed light on the consequences of directed network structure on non-equilibrium dynamics and highlight the importance and ubiquity of hierarchical organisation and non-equilibrium dynamics in real-world systems.\n            \n              \n              \n                \n                  Published by the American Physical Society\n                  2024",
+      "publicationTitle": "Physical Review E",
+      "volume": "110",
+      "issue": "3",
+      "pages": "034313",
+      "date": "2024-9-26",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Phys. Rev. E",
+      "language": "en",
+      "DOI": "10.1103/PhysRevE.110.034313",
+      "ISSN": "2470-0045, 2470-0053",
+      "shortTitle": "",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevE.110.034313",
+      "accessDate": "2024-10-02T12:44:15Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "tex.ids= Broken2024",
+      "tags": [],
+      "collections": [
+        "J5I3L48T"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/WJY4LEA2"
+      },
+      "dateAdded": "2024-10-02T12:43:22Z",
+      "dateModified": "2024-10-02T12:44:21Z"
+    }
+  },
+  {
+    "key": "29SHIU3I",
+    "version": 7976,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/29SHIU3I",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/29SHIU3I",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "numChildren": 0
+    },
+    "data": {
+      "key": "29SHIU3I",
+      "version": 7976,
+      "itemType": "webpage",
+      "title": "Phys. Rev. E 110, 034313 (2024) - Broken detailed balance and entropy production in directed networks",
+      "creators": [],
+      "abstractNote": "",
+      "websiteTitle": "",
+      "websiteType": "",
+      "date": "",
+      "shortTitle": "",
+      "url": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.110.034313",
+      "accessDate": "2024-10-02T12:43:34Z",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "J5I3L48T"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:43:34Z",
+      "dateModified": "2024-10-02T12:43:34Z"
+    }
+  },
+  {
+    "key": "KWYPR3XY",
+    "version": 7973,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/KWYPR3XY",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/KWYPR3XY",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Dupays et al.",
+      "parsedDate": "2024-08-13",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "KWYPR3XY",
+      "version": 7973,
+      "itemType": "preprint",
+      "title": "Slow approach to adiabaticity in many-body non-Hermitian systems: the Hatano-Nelson Model",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "L\u00e9once",
+          "lastName": "Dupays"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Adolfo",
+          "lastName": "del Campo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bal\u00e1zs",
+          "lastName": "D\u00f3ra"
+        }
+      ],
+      "abstractNote": "We explore the near adiabatic dynamics in a non-Hermitian quantum many-body system by investigating a finite-time ramp of the imaginary vector potential in the interacting Hatano-Nelson model. The excess energy, the Loschmidt echo, and the density imbalance are analyzed using bosonization and exact diagonalization. The energy becomes complex valued, despite the instantaneous Hamiltonian having the same real spectrum throughout. The adiabatic limit is approached very slowly through damped oscillations. The decay scales with $\\tau^{-1}$ with $\\tau$ the ramp duration, while the oscillation period is $2L/v$ with $v$ the Fermi velocity and $L$ the system length. Yet, without the need for auxiliary controls, a shortcut to adiabaticity is found for ramp times commensurate with the period. Our work highlights the intricate interplay of adiabaticity and non-Hermitian many-body physics.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2408.07122",
+      "place": "",
+      "date": "2024-08-13",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2408.07122",
+      "accessDate": "2024-10-02T12:21:40Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Slow approach to adiabaticity in many-body non-Hermitian systems",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2408.07122 [cond-mat, physics:quant-ph]",
+      "tags": [
+        {
+          "tag": "Condensed Matter - Quantum Gases",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Strongly Correlated Electrons",
+          "type": 1
+        },
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "I4RGD66J"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:21:40Z",
+      "dateModified": "2024-10-02T12:21:41Z"
+    }
+  },
+  {
+    "key": "9RLCQS4T",
+    "version": 7970,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/9RLCQS4T",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/9RLCQS4T",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Etehadi Abari et al.",
+      "parsedDate": "2024-08-01",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "9RLCQS4T",
+      "version": 7970,
+      "itemType": "journalArticle",
+      "title": "Correlated qubit coherences stimulated by thermal energy",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "N",
+          "lastName": "Etehadi Abari"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "A A",
+          "lastName": "Rakhubovsky"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "R",
+          "lastName": "Filip"
+        }
+      ],
+      "abstractNote": "Quantum coherence, the ability of a system to be in a quantum superposition of pure states, is a distinct feature of quantum mechanics that has no direct analog in classical mechanics. Quantum states that possess coherence efficiently outperform their classical counterparts in fundamental science and practical applications, including quantum metrology, computation, and simulation. Generation of coherence without the need to employ strong classical drives remains a challenging and not yet experimentally explored task. Beyond individual thermally-induced coherences already proposed for different experiments, correlated quantum coherences of multiple qubits represent a new target. We prove that correlated qubit coherence emerges thermally stimulated from incoherent states in hybrid superconducting and solid-state systems comprising non-interacting qubits coupled only via Dicke-type interaction to a shared thermal mechanical oscillator, exhibits coherences beyond the Tavis\u2013Cummings coupling and, moreover, can be advantageous in quantum sensing.",
+      "publicationTitle": "New Journal of Physics",
+      "volume": "26",
+      "issue": "8",
+      "pages": "083022",
+      "date": "2024-08-01",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "New J. Phys.",
+      "language": "en",
+      "DOI": "10.1088/1367-2630/ad6bb6",
+      "ISSN": "1367-2630",
+      "shortTitle": "",
+      "url": "https://iopscience.iop.org/article/10.1088/1367-2630/ad6bb6",
+      "accessDate": "2024-10-02T12:19:24Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "tex.ids= Correlated",
+      "tags": [],
+      "collections": [
+        "DP875XNB",
+        "4AREEVZN"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/MTAMR6GR"
+      },
+      "dateAdded": "2024-09-24T12:31:20Z",
+      "dateModified": "2024-10-02T12:19:28Z"
+    }
+  },
+  {
+    "key": "VWHENHB2",
+    "version": 7967,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/VWHENHB2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/VWHENHB2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "numChildren": 1
+    },
+    "data": {
+      "key": "VWHENHB2",
+      "version": 7967,
+      "itemType": "webpage",
+      "title": "Correlated qubit coherences stimulated by thermal energy - IOPscience",
+      "creators": [],
+      "abstractNote": "",
+      "websiteTitle": "",
+      "websiteType": "",
+      "date": "",
+      "shortTitle": "",
+      "url": "https://iopscience.iop.org/article/10.1088/1367-2630/ad6bb6",
+      "accessDate": "2024-10-02T12:18:37Z",
+      "language": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "DP875XNB"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:18:37Z",
+      "dateModified": "2024-10-02T12:18:37Z"
+    }
+  },
+  {
+    "key": "HYKRTPR2",
+    "version": 7966,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/HYKRTPR2",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/HYKRTPR2",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Garwo\u0142a and Segal",
+      "parsedDate": "2024-08-03",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "HYKRTPR2",
+      "version": 7966,
+      "itemType": "preprint",
+      "title": "Open quantum systems with non-commuting coupling operators: An analytic approach",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jakub",
+          "lastName": "Garwo\u0142a"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dvira",
+          "lastName": "Segal"
+        }
+      ],
+      "abstractNote": "We present an analytic approach to treat open quantum systems strongly coupled to multiple environments via noncommuting system operators, a prime example is a qubit concurrently coupled to both decoherring and dissipative baths. Our approach, which accommodates strong system-bath couplings, generalizes the recently developed reaction-coordinate polaron transform method [PRX Quantum ${\\bf 4}$, 020307 (2023)] to handle couplings to baths via noncommuting system operators. This approach creates an effective Hamiltonian that reveals the cooperative effect of the baths on the system. For a spin impurity coupled to both dissipative and decoherring environments, the effective Hamiltonian predicts the suppression of relaxation by decoherence -- a phenomenon previously observed in simulations but lacking a theoretical foundation. We also apply the method to an ensemble of spins coupled to local baths through noncommuting operators, demonstrating the engineering of the Kitaev XY spin chain interaction. Noncommutativity is a feature of quantum systems; future prospects of our approach include the study of thermal machines that leverage such genuine quantum effects.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2408.01865",
+      "place": "",
+      "date": "2024-08-03",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2408.01865",
+      "accessDate": "2024-10-02T12:16:46Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Open quantum systems with non-commuting coupling operators",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2408.01865 [quant-ph]",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "26ZT9R2L"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:16:46Z",
+      "dateModified": "2024-10-02T12:16:48Z"
+    }
+  },
+  {
+    "key": "RJF23NBF",
+    "version": 7963,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/RJF23NBF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/RJF23NBF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Molignini et al.",
+      "parsedDate": "2024-07-29",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "RJF23NBF",
+      "version": 7963,
+      "itemType": "preprint",
+      "title": "Lecture Notes: many-body quantum dynamics with MCTDH-X",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Paolo",
+          "lastName": "Molignini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Sunayana",
+          "lastName": "Dutta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Elke",
+          "lastName": "Fasshauer"
+        }
+      ],
+      "abstractNote": "The lecture notes on \u201cMany-body Quantum Dynamics with MCTDH-X\u201d, adapted from the 2023 Heidelberg MCTDH Summer School, provide an indepth exploration of the Multiconfigurational Time-Dependent Hartree approach for indistinguishable particles. They serve as a comprehensive guide for understanding and utilizing the MCTDH-X software for both bosonic and fermionic systems. The tutorial begins with an introduction to the MCTDH-X software, highlighting its capability to handle various quantum systems, including those with internal degrees of freedom and long-range interactions. The theoretical foundation is then laid out on how to solve the time-dependent and time-independent Schr\u00a8odinger equations for many-body systems. The workflow section provides practical instructions on setting up and executing simulations using MCTDH-X. Detailed benchmarks against exact solutions are presented, showcasing the accuracy and reliability of the software in ground-state and dynamic simulations. The notes then delve into the dynamics of quantum systems, covering relaxation processes, time evolution, and the analysis of propagation for both bosonic and fermionic particles. The discussion includes the interpretation of various physical quantities such as energy, density distributions, and orbital occupations. Advanced features of MCTDH-X are also explored in the last section, including the calculation of correlation functions and the creation of visualizations through video tutorials. The notes conclude with a Linux/UNIX command cheat sheet, facilitating ease of use for users operating the software on different systems. Overall, these lecture notes provide a valuable resource for researchers and students in the field of quantum dynamics, offering both theoretical insights and practical guidance on the use of MCTDH-X for studying complex many-body systems.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.20317",
+      "place": "",
+      "date": "2024-07-29",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.20317",
+      "accessDate": "2024-10-02T12:14:48Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Lecture Notes",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.20317 [cond-mat, physics:quant-ph]\ntex.ids= moligniniLectureNotesManybody2024",
+      "tags": [
+        {
+          "tag": "Condensed Matter - Disordered Systems and Neural Networks",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Mesoscale and Nanoscale Physics",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Quantum Gases",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Strongly Correlated Electrons",
+          "type": 1
+        },
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "M7GQRZND"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/2SH75XSW"
+      },
+      "dateAdded": "2024-10-02T12:14:48Z",
+      "dateModified": "2024-10-02T12:14:51Z"
+    }
+  },
+  {
+    "key": "2J3RC7YC",
+    "version": 7958,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/2J3RC7YC",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/2J3RC7YC",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Albarelli et al.",
+      "parsedDate": "2024-07-25",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "2J3RC7YC",
+      "version": 7958,
+      "itemType": "preprint",
+      "title": "Pseudomode treatment of strong-coupling quantum thermodynamics",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Francesco",
+          "lastName": "Albarelli"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bassano",
+          "lastName": "Vacchini"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrea",
+          "lastName": "Smirne"
+        }
+      ],
+      "abstractNote": "The treatment of quantum thermodynamic systems beyond weak coupling is of increasing relevance, yet extremely challenging. The evaluation of thermodynamic quantities in strong-coupling regimes requires a nonperturbative knowledge of the bath dynamics, which in turn relies on heavy numerical simulations. To tame these difficulties, considering thermal bosonic baths linearly coupled to the open system, we derive expressions for heat, work, and average system-bath interaction energy that only involve the autocorrelation function of the bath and two-time expectation values of system operators. We then exploit the pseudomode approach, which replaces the physical continuous bosonic bath with a small finite number of damped, possibly interacting, modes, to numerically evaluate these relevant thermodynamic quantities. We show in particular that this method allows for an efficient numerical evaluation of thermodynamic quantities in terms of one-time expectation values of the open system and the pseudomodes. We apply this framework to the investigation of two paradigmatic situations. In the first instance, we study the entropy production for a two-level system coupled to an ohmic bath, simulated via interacting pseudomodes, allowing for the presence of time-dependent driving. Secondly, we consider a quantum thermal machine composed of a two-level system interacting with two thermal baths at different temperatures, showing that an appropriate sinusoidal modulation of the coupling with the cold bath only is enough to obtain work extraction.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.17886",
+      "place": "",
+      "date": "2024-07-25",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.17886",
+      "accessDate": "2024-10-02T12:13:40Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.17886 [quant-ph]\ntex.ids= albarelliPseudomodeTreatmentStrongcoupling2024",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "UATGG5FE",
+        "ZB975W7F"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/E58VRRPE"
+      },
+      "dateAdded": "2024-10-02T12:13:40Z",
+      "dateModified": "2024-10-02T12:13:44Z"
+    }
+  },
+  {
+    "key": "77I2R3YX",
+    "version": 7958,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/77I2R3YX",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/77I2R3YX",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Minganti and Biella",
+      "parsedDate": "2024-07-23",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "77I2R3YX",
+      "version": 7958,
+      "itemType": "preprint",
+      "title": "Open quantum systems -- A brief introduction",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Fabrizio",
+          "lastName": "Minganti"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Alberto",
+          "lastName": "Biella"
+        }
+      ],
+      "abstractNote": "This text is a short introduction to the physics of drivendissipative many-body systems, focusing on a few selected topics. Beyond its more \u201chistorical\u201d interest in the study of atomic physics and quantum optics, presently the modeling and studying dissipative phenomena in open quantum systems is pivotal to understanding quantum hardware platforms. While the lack of a thermodynamic potential for these out-of-equilibrium open systems makes it theoretically challenging to investigate their physics, at the same time it allows going beyond the thermodynamic paradigms and investigating new and exotic phenomena. We will focus on one of the simplest, yet most effective, descriptions of open quantum systems, namely the (GoriniKossakowski-Sudarshan-) Lindblad master equation. This phenomenological approach describes quantum systems that weakly interact with their surrounding environment. Although many of the results derived below will apply to any quantum system, we will focus in particular on bosonic/spin systems.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.16855",
+      "place": "",
+      "date": "2024-07-23",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.16855",
+      "accessDate": "2024-10-02T12:13:09Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.16855 [quant-ph]\ntex.ids= mingantiOpenQuantumSystems2024",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "H8HWJJGM",
+        "ZB975W7F"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/5FV2GI4I"
+      },
+      "dateAdded": "2024-10-02T12:13:09Z",
+      "dateModified": "2024-10-02T12:13:13Z"
+    }
+  },
+  {
+    "key": "D6FSE5EU",
+    "version": 7956,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/D6FSE5EU",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/D6FSE5EU",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Miller",
+      "parsedDate": "2024-07-22",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "D6FSE5EU",
+      "version": 7956,
+      "itemType": "preprint",
+      "title": "Covariant currents and a thermodynamic uncertainty relation on curved manifolds",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Harry J. D.",
+          "lastName": "Miller"
+        }
+      ],
+      "abstractNote": "A framework for defining stochastic currents associated with diffusion processes on curved Riemannian manifolds is presented. This is achieved by introducing an overdamped Stratonovich-Langevin equation that remains fully covariant under non-linear transformations of state variables. The approach leads to a covariant extension of the thermodynamic uncertainty relation, describing a trade-off between the total entropy production rate and thermodynamic precision associated with short-time currents in curved spaces and arbitrary coordinate systems.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.15405",
+      "place": "",
+      "date": "2024-07-22",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.15405",
+      "accessDate": "2024-10-02T12:12:30Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.15405 [cond-mat]",
+      "tags": [
+        {
+          "tag": "Condensed Matter - Statistical Mechanics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "I57DX6YU"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:12:30Z",
+      "dateModified": "2024-10-02T12:12:34Z"
+    }
+  },
+  {
+    "key": "2SKPPHG7",
+    "version": 7955,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/2SKPPHG7",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/2SKPPHG7",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Prech et al.",
+      "parsedDate": "2024-07-19",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "2SKPPHG7",
+      "version": 7955,
+      "itemType": "preprint",
+      "title": "Role of Quantum Coherence in Kinetic Uncertainty Relations",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Kacper",
+          "lastName": "Prech"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Patrick P.",
+          "lastName": "Potts"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel T.",
+          "lastName": "Landi"
+        }
+      ],
+      "abstractNote": "The Kinetic Uncertainty Relation (KUR) bounds the signal-to-noise ratio of stochastic currents in terms of the number of transitions per unit time, known as the dynamical activity. This bound was derived in a classical context, and can be violated in the quantum regime due to coherent effects. However, the precise connection between KUR violations and quantum coherence has so far remained elusive, despite significant investigation. In this work, we solve this problem by deriving a modified bound that exactly pinpoints how, and when, coherence might lead to KUR violations. Our bound is sensitive to the specific kind of unraveling of the quantum master equation. It therefore allows one to compare quantum jumps and quantum diffusion, and understand, in each case, how quantum coherence affects fluctuations. We illustrate our result on a double quantum dot, where the electron current is monitored either by electron jump detection or with continuous diffusive charge measurement.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.14147",
+      "place": "",
+      "date": "2024-07-19",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.14147",
+      "accessDate": "2024-10-02T12:11:57Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.14147 [cond-mat, physics:quant-ph]",
+      "tags": [
+        {
+          "tag": "Condensed Matter - Mesoscale and Nanoscale Physics",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Statistical Mechanics",
+          "type": 1
+        },
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "I57DX6YU"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:11:57Z",
+      "dateModified": "2024-10-02T12:11:59Z"
+    }
+  },
+  {
+    "key": "KK4LKJLF",
+    "version": 7951,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/KK4LKJLF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/KK4LKJLF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Ferracin et al.",
+      "parsedDate": "2024-07-13",
+      "numChildren": 3
+    },
+    "data": {
+      "key": "KK4LKJLF",
+      "version": 7951,
+      "itemType": "preprint",
+      "title": "Spectral Density Modulation and Universal Markovian Closure of Fermionic Environments",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Davide",
+          "lastName": "Ferracin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Andrea",
+          "lastName": "Smirne"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Susana F.",
+          "lastName": "Huelga"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin B.",
+          "lastName": "Plenio"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dario",
+          "lastName": "Tamascelli"
+        }
+      ],
+      "abstractNote": "The combination of chain-mapping and tensor-network techniques provides a powerful tool for the numerically exact simulation of open quantum systems interacting with structured environments. However, these methods suffer from a quadratic scaling with the physical simulation time, and therefore they become challenging in the presence of multiple environments. This is particularly true when fermionic environments, well-known to be highly correlated, are considered. In this work we first illustrate how a thermo-chemical modulation of the spectral density allows replacing the original fermionic environments with equivalent, but simpler, ones. Moreover, we show how this procedure reduces the number of chains needed to model multiple environments. We then provide a derivation of the fermionic Markovian closure construction, consisting of a small collection of damped fermionic modes undergoing a Lindblad-type dynamics and mimicking a continuum of bath modes. We describe, in particular, how the use of the Markovian closure allows for a polynomial reduction of the time complexity of chain-mapping based algorithms when long-time dynamics are needed.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.10017",
+      "place": "",
+      "date": "2024-07-13",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "10.48550/arXiv.2407.10017",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.10017",
+      "accessDate": "2024-10-02T12:09:15Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.10017 [quant-ph]\ntex.ids= Spectral",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "M9YL2ZRT"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/9674P9ZC"
+      },
+      "dateAdded": "2024-10-02T12:09:15Z",
+      "dateModified": "2024-10-02T12:09:18Z"
+    }
+  },
+  {
+    "key": "DRK7MGHI",
+    "version": 7948,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/DRK7MGHI",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/DRK7MGHI",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Iles-Smith et al.",
+      "parsedDate": "2024-07-15",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "DRK7MGHI",
+      "version": 7948,
+      "itemType": "preprint",
+      "title": "Capturing non-Markovian polaron dressing with the master equation formalism",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jake",
+          "lastName": "Iles-Smith"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Owen",
+          "lastName": "Diba"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Ahsan",
+          "lastName": "Nazir"
+        }
+      ],
+      "abstractNote": "Understanding the dynamics of open quantum systems in strong coupling and non-Markovian regimes remains a formidable theoretical challenge. One popular and well-established method of approximation in these circumstances is provided by the polaron master equation (PME). In this work we reevaluate and extend the validity of the PME to capture the impact of non-Markovian polaron dressing, induced by non-equilibrium open system dynamics. By comparing with numerically exact techniques, we confirm that while the standard PME successfully predicts the dynamics of system observables that commute with the polaron transformation (e.g. populations in the Pauli z-basis), it can struggle to fully capture those that do not (e.g. coherences). This limitation stems from the mixing of system and environment degrees of freedom inherent to the polaron transformation, which affects the accuracy of calculated expectation values within the polaron frame. Employing the Nakajima-Zwanzig projection operator formalism, we introduce correction terms that provide an accurate description of observables that do not commute with the transformation. We demonstrate the significance of the correction terms in two cases, the canonical spin-boson model and a dissipative time-dependent Landau-Zener protocol, where they are shown to impact the system dynamics on both short and long timescales.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.10744",
+      "place": "",
+      "date": "2024-07-15",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.10744",
+      "accessDate": "2024-10-02T12:08:00Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.10744 [quant-ph]",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "HWXSI8GY"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:08:00Z",
+      "dateModified": "2024-10-02T12:08:02Z"
+    }
+  },
+  {
+    "key": "EKB4V2SF",
+    "version": 7944,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/EKB4V2SF",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/EKB4V2SF",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Rodr\u00edguez-Aldavero et al.",
+      "parsedDate": "2024-07-12",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "EKB4V2SF",
+      "version": 7944,
+      "itemType": "preprint",
+      "title": "Chebyshev approximation and composition of functions in matrix product states for quantum-inspired numerical analysis",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Juan Jos\u00e9",
+          "lastName": "Rodr\u00edguez-Aldavero"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Paula",
+          "lastName": "Garc\u00eda-Molina"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Luca",
+          "lastName": "Tagliacozzo"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Juan Jos\u00e9",
+          "lastName": "Garc\u00eda-Ripoll"
+        }
+      ],
+      "abstractNote": "This work explores the representation of univariate and multivariate functions as matrix product states (MPS), also known as quantized tensor-trains (QTT). It proposes an algorithm that employs iterative Chebyshev expansions and Clenshaw evaluations to represent analytic and highly differentiable functions as MPS Chebyshev interpolants. It demonstrates rapid convergence for highly-differentiable functions, aligning with theoretical predictions, and generalizes efficiently to multidimensional scenarios. The performance of the algorithm is compared with that of tensor cross-interpolation (TCI) and multiscale interpolative constructions through a comprehensive comparative study. When function evaluation is inexpensive or when the function is not analytical, TCI is generally more efficient for function loading. However, the proposed method shows competitive performance, outperforming TCI in certain multivariate scenarios. Moreover, it shows advantageous scaling rates and generalizes to a wider range of tasks by providing a framework for function composition in MPS, which is useful for non-linear problems and many-body statistical physics.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2407.09609",
+      "place": "",
+      "date": "2024-07-12",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2407.09609",
+      "accessDate": "2024-10-02T12:06:13Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2407.09609 [quant-ph]",
+      "tags": [
+        {
+          "tag": "Mathematics - Numerical Analysis",
+          "type": 1
+        },
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "5HVJG9VA"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-02T12:06:13Z",
+      "dateModified": "2024-10-02T12:06:17Z"
+    }
+  },
+  {
+    "key": "HNRHT9JE",
+    "version": 7940,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/HNRHT9JE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/HNRHT9JE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sharma and Ogle",
+      "parsedDate": "2022-04-03",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "HNRHT9JE",
+      "version": 7940,
+      "itemType": "journalArticle",
+      "title": "Twelve tips for students who wish to write and publish",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rajaei K.",
+          "lastName": "Sharma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harriet L.",
+          "lastName": "Ogle"
+        }
+      ],
+      "abstractNote": "Stepping into the world of research can be an overwhelming task, especially for those with relatively little experience, such as medical students. This article aims to provide students with tips for writing and publishing in all fields. The 12 tips are as follows: (1) find your why; (2) play to your strengths and be realistic; (3) be well read; (4) revisit missed opportunities; (5) talk to the doctors around you; (6) broaden your horizons; (7) get to grips with the submission process early; (8) pay attention to the details; (9) remember that submission is not the end; (10) the process can\u2019t be rushed; (11) consider the alternative paths to presenting research; (12) start writing. This writing is derived from personal experience with supporting evidence and is not designed to be encyclopaedic, simply a reference to help students alleviate any concerns and begin their own journey into the world of research.",
+      "publicationTitle": "Medical Teacher",
+      "volume": "44",
+      "issue": "4",
+      "pages": "360-365",
+      "date": "2022-04-03",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "language": "",
+      "DOI": "10.1080/0142159X.2021.1908977",
+      "ISSN": "0142-159X",
+      "shortTitle": "",
+      "url": "https://doi.org/10.1080/0142159X.2021.1908977",
+      "accessDate": "2024-10-01T16:24:29Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/0142159X.2021.1908977\nPMID: 33836132",
+      "tags": [
+        {
+          "tag": "International medical education",
+          "type": 1
+        },
+        {
+          "tag": "medical education research",
+          "type": 1
+        },
+        {
+          "tag": "undergraduate",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "4LX4M93P"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-01T16:24:29Z",
+      "dateModified": "2024-10-01T16:24:29Z"
+    }
+  },
+  {
+    "key": "CF6MWG27",
+    "version": 7938,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/CF6MWG27",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/CF6MWG27",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Nguyen",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "CF6MWG27",
+      "version": 7938,
+      "itemType": "journalArticle",
+      "title": "Introduction to Machine Learning Class Notes",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Huy",
+          "lastName": "Nguyen"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "date": "",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "language": "en",
+      "DOI": "",
+      "ISSN": "",
+      "shortTitle": "",
+      "url": "",
+      "accessDate": "",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Zotero",
+      "callNumber": "",
+      "rights": "",
+      "extra": "",
+      "tags": [],
+      "collections": [
+        "TQJ5ARFS"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-01T16:24:20Z",
+      "dateModified": "2024-10-01T16:24:21Z"
+    }
+  },
+  {
+    "key": "QML3WK8S",
+    "version": 7934,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/QML3WK8S",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/QML3WK8S",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Zaldivar and Quevedo",
+      "parsedDate": "2024-03-21",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "QML3WK8S",
+      "version": 7934,
+      "itemType": "preprint",
+      "title": "Ideal quantum gases: A geometrothermodynamic approach",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Sasha A.",
+          "lastName": "Zaldivar"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Hernando",
+          "lastName": "Quevedo"
+        }
+      ],
+      "abstractNote": "We derive the fundamental thermodynamic equation for Fermi-Dirac and Bose-Einstein quantum gases, which contains the \ufb01rst order contribution due to the quantum nature of the gas particles. Then, we analyze the fundamental equation in the context of geometrothermodynamics. Although the corresponding Hamiltonian does not contain a potential, indicating the lack of classical thermodynamic interaction, we show that the curvature of the equilibrium space is non-zero and can be interpreted as a measure of the e\ufb00ective quantum interaction between the gas particles. In the limiting case of a classical Boltzmann gas, we show that the equilibrium space becomes \ufb02at, as expected from the physical viewpoint. In addition, we derive a thermodynamic fundamental equation for the Bose-Einstein condensation and, using the Ehrenfest scheme, we show that it can be considered as a \ufb01rst order phase transition which in the equilibrium space corresponds to a curvature singularity. This result indicates that the curvature of the equilibrium space can be used to measure in an invariant way the thermodynamic interaction in classical and quantum ideal gases.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:1512.08755",
+      "place": "",
+      "date": "2024-03-21",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/1512.08755",
+      "accessDate": "2024-09-30T13:26:05Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "Ideal quantum gases",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:1512.08755 [gr-qc, physics:math-ph]",
+      "tags": [
+        {
+          "tag": "General Relativity and Quantum Cosmology",
+          "type": 1
+        },
+        {
+          "tag": "Mathematical Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "GI4F9Q5Q"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:26:05Z",
+      "dateModified": "2024-09-30T13:26:05Z"
+    }
+  },
+  {
+    "key": "82T3GA7M",
+    "version": 7931,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/82T3GA7M",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/82T3GA7M",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Coppola et al.",
+      "parsedDate": "2023-05-22",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "82T3GA7M",
+      "version": 7931,
+      "itemType": "journalArticle",
+      "title": "Wigner dynamics for quantum gases under inhomogeneous gain and loss processes with dephasing",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Michele",
+          "lastName": "Coppola"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gabriel T.",
+          "lastName": "Landi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Dragi",
+          "lastName": "Karevski"
+        }
+      ],
+      "abstractNote": "We present a Wigner function-based approach for the particle density evolution in fermionic and bosonic open quantum many-body systems, including the effects of dephasing. In particular, we focus on chains of non-interacting particles coupled to Lindblad baths. The dissipative processes, described by linear and quadratic jump operators, are modulated by inhomogeneous couplings. Following a semi-classical approach, we find the differential equation governing the Wigner function evolution, which can be solved in closed form in some particular cases. We check the accuracy of the Wigner approach in different scenarios (i.e. Gaussian jump rates), describing the density evolution and the transport phenomena in terms of classical quasi-particles.",
+      "publicationTitle": "Physical Review A",
+      "volume": "107",
+      "issue": "5",
+      "pages": "052213",
+      "date": "2023-5-22",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Phys. Rev. A",
+      "language": "en",
+      "DOI": "10.1103/PhysRevA.107.052213",
+      "ISSN": "2469-9926, 2469-9934",
+      "shortTitle": "",
+      "url": "http://arxiv.org/abs/2212.11029",
+      "accessDate": "2024-09-30T13:20:18Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2212.11029 [cond-mat]",
+      "tags": [
+        {
+          "tag": "Condensed Matter - Quantum Gases",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Statistical Mechanics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "M7LT2CPQ"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:20:18Z",
+      "dateModified": "2024-09-30T13:20:18Z"
+    }
+  },
+  {
+    "key": "PB63S3CV",
+    "version": 7928,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/PB63S3CV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/PB63S3CV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Cao and Boyanovsky",
+      "parsedDate": "2023-03-13",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "PB63S3CV",
+      "version": 7928,
+      "itemType": "journalArticle",
+      "title": "Non-equilibrium dynamics of Axion-like particles: the quantum master equation",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Shuyang",
+          "lastName": "Cao"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Daniel",
+          "lastName": "Boyanovsky"
+        }
+      ],
+      "abstractNote": "We study the non-equilibrium dynamics of Axion-like particles (ALP) coupled to Standard Model degrees of freedom in thermal equilibrium. The Quantum Master Equation (QME) for the (ALP) reduced density matrix is derived to leading order in the coupling of the (ALP) to the thermal bath, but to \\emph{all} orders of the bath couplings to degrees of freedom within or beyond the Standard Model other than the (ALP). The (QME) describes the damped oscillation dynamics of an initial misaligned (ALP) condensate, thermalization with the bath, decoherence and entropy production within a unifying framework. The (ALP) energy density $\\mathcal{E}(t)$ features two components: a ``cold'' component from the misaligned condensate and a ``hot'' component from thermalization with the bath, with $\\mathcal{E}(t)= \\mathcal{E}_{c}\\,e^{-\\gamma(T)\\,t}+\\mathcal{E}_{h}(1-e^{-\\gamma(T)\\,t})$ thus providing a ``mixed dark matter'' scenario. Relaxation of the (ALP) condensate, thermalization, decoherence and entropy production occur on similar time scales. An explicit example with (ALP)-photon coupling, valid post recombination yields a relaxation rate $\\gamma(T)$ with a substantial enhancement from thermal emission and absorption. A misaligned condensate is decaying at least since recombination and on the same time scale thermalizing with the cosmic microwave background (CMB). Possible consequences for birefringence of the (CMB) and (ALP) contribution to the effective number of ultrarelativistic species and galaxy formation are discussed.",
+      "publicationTitle": "Physical Review D",
+      "volume": "107",
+      "issue": "6",
+      "pages": "063518",
+      "date": "2023-3-13",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Phys. Rev. D",
+      "language": "en",
+      "DOI": "10.1103/PhysRevD.107.063518",
+      "ISSN": "2470-0010, 2470-0029",
+      "shortTitle": "Non-equilibrium dynamics of Axion-like particles",
+      "url": "http://arxiv.org/abs/2212.05161",
+      "accessDate": "2024-09-30T13:18:44Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2212.05161 [astro-ph, physics:cond-mat, physics:hep-ph, physics:hep-th, physics:quant-ph]",
+      "tags": [
+        {
+          "tag": "Astrophysics - Cosmology and Nongalactic Astrophysics",
+          "type": 1
+        },
+        {
+          "tag": "Condensed Matter - Other Condensed Matter",
+          "type": 1
+        },
+        {
+          "tag": "High Energy Physics - Phenomenology",
+          "type": 1
+        },
+        {
+          "tag": "High Energy Physics - Theory",
+          "type": 1
+        },
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "XGHJH2HQ"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:18:44Z",
+      "dateModified": "2024-09-30T13:18:45Z"
+    }
+  },
+  {
+    "key": "DWJBNWU6",
+    "version": 7924,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/DWJBNWU6",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/DWJBNWU6",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Llodr\u00e0 et al.",
+      "parsedDate": "2023",
+      "numChildren": 2
+    },
+    "data": {
+      "key": "DWJBNWU6",
+      "version": 7924,
+      "itemType": "journalArticle",
+      "title": "Benchmarking the Role of Particle Statistics in Quantum Reservoir Computing",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Guillem",
+          "lastName": "Llodr\u00e0"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Christos",
+          "lastName": "Charalambous"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Gian Luca",
+          "lastName": "Giorgi"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Roberta",
+          "lastName": "Zambrini"
+        }
+      ],
+      "abstractNote": "Quantum reservoir computing is a neuro-inspired machine learning approach harnessing the rich dynamics of quantum systems to solve temporal tasks. It has gathered attention for its suitability for NISQ devices, for easy and fast trainability, and for potential quantum advantage. Although several types of systems have been proposed as quantum reservoirs, differences arising from particle statistics have not been established yet. In this work, the ability of bosons, fermions, and qubits are assessed and compared to store information from past inputs by measuring linear and nonlinear memory capacity. While, in general, the performance of the system improves with the Hilbert space size, it is shown that also the information spreading capability is a key factor. For the simplest reservoir Hamiltonian choice, and for each boson limited to at most one excitation, fermions provide the best reservoir due to their intrinsic nonlocal properties. On the other hand, a tailored input injection strategy allows the exploitation of the abundance of degrees of freedom of the Hilbert space for bosonic quantum reservoir computing and enhances the computational power compared to both qubits and fermions.",
+      "publicationTitle": "Advanced Quantum Technologies",
+      "volume": "6",
+      "issue": "1",
+      "pages": "2200100",
+      "date": "2023",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "language": "en",
+      "DOI": "10.1002/qute.202200100",
+      "ISSN": "2511-9044",
+      "shortTitle": "",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/qute.202200100",
+      "accessDate": "2024-09-30T13:16:58Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Wiley Online Library",
+      "callNumber": "",
+      "rights": "",
+      "extra": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/qute.202200100",
+      "tags": [
+        {
+          "tag": "information processing",
+          "type": 1
+        },
+        {
+          "tag": "quantum machine learning",
+          "type": 1
+        },
+        {
+          "tag": "quantum statistics",
+          "type": 1
+        },
+        {
+          "tag": "reservoir computing",
+          "type": 1
+        },
+        {
+          "tag": "unconventional computing",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "DS6RZGZG"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:16:58Z",
+      "dateModified": "2024-09-30T13:16:58Z"
+    }
+  },
+  {
+    "key": "QPM437BA",
+    "version": 7922,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/QPM437BA",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/QPM437BA",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Gaset et al.",
+      "parsedDate": "2022-11-30",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "QPM437BA",
+      "version": 7922,
+      "itemType": "preprint",
+      "title": "The Herglotz variational principle for dissipative field theories",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Jordi",
+          "lastName": "Gaset"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Manuel",
+          "lastName": "Lainz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Arnau",
+          "lastName": "Mas"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Xavier",
+          "lastName": "Rivas"
+        }
+      ],
+      "abstractNote": "In the recent years, with the incorporation of contact geometry, there has been a renewed interest in the study of dissipative or non-conservative systems in physics and other areas of applied mathematics. The equations arising when studying contact Hamiltonian systems can also be obtained via the Herglotz variational principle. The contact Lagrangian and Hamiltonian formalisms for mechanical systems has also been generalized to \ufb01eld theories. The main goal of this paper is to develop a generalization of the Herglotz variational principle for \ufb01rst-order and higher-order \ufb01eld theories. In order to illustrate this, we study three examples: the damped vibrating string, the Korteweg\u2013De Vries equation, and an academic example showing that the non-holonomic and the vakonomic variational principles are not fully equivalent.",
+      "genre": "",
+      "repository": "arXiv",
+      "archiveID": "arXiv:2211.17058",
+      "place": "",
+      "date": "2022-11-30",
+      "series": "",
+      "seriesNumber": "",
+      "DOI": "",
+      "citationKey": "",
+      "url": "http://arxiv.org/abs/2211.17058",
+      "accessDate": "2024-09-30T13:13:10Z",
+      "archive": "",
+      "archiveLocation": "",
+      "shortTitle": "",
+      "language": "en",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2211.17058 [math-ph]",
+      "tags": [
+        {
+          "tag": "37K58, 37L05, 53D10, 35Q53",
+          "type": 1
+        },
+        {
+          "tag": "Mathematical Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "XGHJH2HQ"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:13:10Z",
+      "dateModified": "2024-09-30T13:13:12Z"
+    }
+  },
+  {
+    "key": "Q8U7JWQV",
+    "version": 7918,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/Q8U7JWQV",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/Q8U7JWQV",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Dalzell et al.",
+      "parsedDate": "2023-11-13",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "Q8U7JWQV",
+      "version": 7918,
+      "itemType": "journalArticle",
+      "title": "End-to-end resource analysis for quantum interior point methods and portfolio optimization",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Alexander M.",
+          "lastName": "Dalzell"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "B. David",
+          "lastName": "Clader"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Grant",
+          "lastName": "Salton"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Mario",
+          "lastName": "Berta"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Cedric Yen-Yu",
+          "lastName": "Lin"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "David A.",
+          "lastName": "Bader"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Nikitas",
+          "lastName": "Stamatopoulos"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Martin J. A.",
+          "lastName": "Schuetz"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Fernando G. S. L.",
+          "lastName": "Brand\u00e3o"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Helmut G.",
+          "lastName": "Katzgraber"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "William J.",
+          "lastName": "Zeng"
+        }
+      ],
+      "abstractNote": "We study quantum interior point methods (QIPMs) for second-order cone programming (SOCP), guided by the example use case of portfolio optimization (PO). We provide a complete quantum circuit-level description of the algorithm from problem input to problem output, making several improvements to the implementation of the QIPM. We report the number of logical qubits and the quantity/depth of non-Clifford T-gates needed to run the algorithm, including constant factors. The resource counts we find depend on instance-specific parameters, such as the condition number of certain linear systems within the problem. To determine the size of these parameters, we perform numerical simulations of small PO instances, which lead to concrete resource estimates for the PO use case. Our numerical results do not probe large enough instance sizes to make conclusive statements about the asymptotic scaling of the algorithm. However, already at small instance sizes, our analysis suggests that, due primarily to large constant pre-factors, poorly conditioned linear systems, and a fundamental reliance on costly quantum state tomography, fundamental improvements to the QIPM are required for it to lead to practical quantum advantage.",
+      "publicationTitle": "PRX Quantum",
+      "volume": "4",
+      "issue": "4",
+      "pages": "040325",
+      "date": "2023-11-13",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "PRX Quantum",
+      "language": "en",
+      "DOI": "10.1103/PRXQuantum.4.040325",
+      "ISSN": "2691-3399",
+      "shortTitle": "",
+      "url": "http://arxiv.org/abs/2211.12489",
+      "accessDate": "2024-09-30T13:10:05Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "arXiv.org",
+      "callNumber": "",
+      "rights": "",
+      "extra": "arXiv:2211.12489 [quant-ph]",
+      "tags": [
+        {
+          "tag": "Quantum Physics",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "3YI5NXRU"
+      ],
+      "relations": {},
+      "dateAdded": "2024-09-30T13:10:05Z",
+      "dateModified": "2024-09-30T13:10:07Z"
+    }
+  },
+  {
+    "key": "3BVULPME",
+    "version": 7914,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/3BVULPME",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/3BVULPME",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Mandarino et al.",
+      "parsedDate": "2021-09-14",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "3BVULPME",
+      "version": 7914,
+      "itemType": "journalArticle",
+      "title": "Thermal Transistor Effect in Quantum Systems",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Antonio",
+          "lastName": "Mandarino"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Karl",
+          "lastName": "Joulain"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Melisa Dom\u00ednguez",
+          "lastName": "G\u00f3mez"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Bruno",
+          "lastName": "Bellomo"
+        }
+      ],
+      "abstractNote": "",
+      "publicationTitle": "Physical Review Applied",
+      "volume": "16",
+      "issue": "3",
+      "pages": "034026",
+      "date": "2021-9-14",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "Phys. Rev. Applied",
+      "language": "en",
+      "DOI": "10.1103/PhysRevApplied.16.034026",
+      "ISSN": "2331-7019",
+      "shortTitle": "",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevApplied.16.034026",
+      "accessDate": "2024-09-30T13:07:15Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "DOI.org (Crossref)",
+      "callNumber": "",
+      "rights": "",
+      "extra": "tex.ids= mandarinoThermalTransistorEffect2021",
+      "tags": [],
+      "collections": [
+        "ZPJXNNJ7",
+        "I6BABR9J"
+      ],
+      "relations": {
+        "dc:replaces": "http://zotero.org/users/8218749/items/XKNAGW9E"
+      },
+      "dateAdded": "2023-11-14T07:54:20Z",
+      "dateModified": "2024-09-30T13:07:18Z"
+    }
+  }
+]

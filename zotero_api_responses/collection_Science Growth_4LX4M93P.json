@@ -1,0 +1,92 @@
+[
+  {
+    "key": "HNRHT9JE",
+    "version": 7940,
+    "library": {
+      "type": "user",
+      "id": 8218749,
+      "name": "mcditoos",
+      "links": {
+        "alternate": {
+          "href": "https://www.zotero.org/mcditoos",
+          "type": "text/html"
+        }
+      }
+    },
+    "links": {
+      "self": {
+        "href": "https://api.zotero.org/users/8218749/items/HNRHT9JE",
+        "type": "application/json"
+      },
+      "alternate": {
+        "href": "https://www.zotero.org/mcditoos/items/HNRHT9JE",
+        "type": "text/html"
+      }
+    },
+    "meta": {
+      "creatorSummary": "Sharma and Ogle",
+      "parsedDate": "2022-04-03",
+      "numChildren": 1
+    },
+    "data": {
+      "key": "HNRHT9JE",
+      "version": 7940,
+      "itemType": "journalArticle",
+      "title": "Twelve tips for students who wish to write and publish",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Rajaei K.",
+          "lastName": "Sharma"
+        },
+        {
+          "creatorType": "author",
+          "firstName": "Harriet L.",
+          "lastName": "Ogle"
+        }
+      ],
+      "abstractNote": "Stepping into the world of research can be an overwhelming task, especially for those with relatively little experience, such as medical students. This article aims to provide students with tips for writing and publishing in all fields. The 12 tips are as follows: (1) find your why; (2) play to your strengths and be realistic; (3) be well read; (4) revisit missed opportunities; (5) talk to the doctors around you; (6) broaden your horizons; (7) get to grips with the submission process early; (8) pay attention to the details; (9) remember that submission is not the end; (10) the process can\u2019t be rushed; (11) consider the alternative paths to presenting research; (12) start writing. This writing is derived from personal experience with supporting evidence and is not designed to be encyclopaedic, simply a reference to help students alleviate any concerns and begin their own journey into the world of research.",
+      "publicationTitle": "Medical Teacher",
+      "volume": "44",
+      "issue": "4",
+      "pages": "360-365",
+      "date": "2022-04-03",
+      "series": "",
+      "seriesTitle": "",
+      "seriesText": "",
+      "journalAbbreviation": "",
+      "language": "",
+      "DOI": "10.1080/0142159X.2021.1908977",
+      "ISSN": "0142-159X",
+      "shortTitle": "",
+      "url": "https://doi.org/10.1080/0142159X.2021.1908977",
+      "accessDate": "2024-10-01T16:24:29Z",
+      "archive": "",
+      "archiveLocation": "",
+      "libraryCatalog": "Taylor and Francis+NEJM",
+      "callNumber": "",
+      "rights": "",
+      "extra": "Publisher: Taylor & Francis\n_eprint: https://doi.org/10.1080/0142159X.2021.1908977\nPMID: 33836132",
+      "tags": [
+        {
+          "tag": "International medical education",
+          "type": 1
+        },
+        {
+          "tag": "medical education research",
+          "type": 1
+        },
+        {
+          "tag": "undergraduate",
+          "type": 1
+        }
+      ],
+      "collections": [
+        "4LX4M93P"
+      ],
+      "relations": {},
+      "dateAdded": "2024-10-01T16:24:29Z",
+      "dateModified": "2024-10-01T16:24:29Z"
+    }
+  }
+]
