@@ -33,17 +33,24 @@ extensions = {
     ".bib": "Bibfiles",
     ".bbl": "Bibfiles",
     ".zip": "Compressed",
+    ".rar": "Compressed",
     ".tar": "Compressed",
     ".gz": "Compressed",
     ".html": "webfiles",
     ".css": "webfiles",
+    ".js": "webfiles",
     ".nb": "MathematicaNotebooks",
+    ".m": "Matlab",
     ".bibtex": "Bibfiles",
+    ".tex": "Bibfiles",
     ".npz": "SavedData",
     ".csv": "Spreadsheeds",
     ".xlsx": "Spreadsheeds",
-    ".py": "SourceFiles",
-    ".jl": "SourceFiles",
+    ".py": "Python",
+    ".jl": "Julia",
+    ".azw3": "Kindle Books",
+    ".mobi": "Kindle Books",
+
 }
 
 for filename in os.listdir(directory):

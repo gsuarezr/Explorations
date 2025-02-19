@@ -1,0 +1,5230 @@
+The system is: Linux - 5.15.90.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_504ae && [1/2] Building C object CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_504ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccS0YnB.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/'
+ as -v --64 -o CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o /tmp/cccS0YnB.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_504ae
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_504ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_504ae.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZsrMkC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_504ae /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_504ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_504ae.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_504ae && [1/2] Building C object CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_504ae.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cccS0YnB.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o /tmp/cccS0YnB.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_504ae]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_504ae' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_504ae.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZsrMkC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_504ae /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZsrMkC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_504ae] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_504ae.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_04651 && [1/2] Building CXX object CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_04651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3odRe2.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/'
+ as -v --64 -o CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3odRe2.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_04651
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04651.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQiyD3C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04651 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04651.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_04651 && [1/2] Building CXX object CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_04651.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc3odRe2.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3odRe2.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_04651]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04651' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_04651.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQiyD3C.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04651 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQiyD3C.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_04651] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_04651.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2ad6d && [1/2] Building C object CMakeFiles/cmTC_2ad6d.dir/src.c.o
+[2/2] Linking C executable cmTC_2ad6d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WUNDEF succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_80280 && [1/2] Building C object CMakeFiles/cmTC_80280.dir/src.c.o
+[2/2] Linking C executable cmTC_80280
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WFLOAT_CONVERSION succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_3491d && [1/2] Building C object CMakeFiles/cmTC_3491d.dir/src.c.o
+[2/2] Linking C executable cmTC_3491d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_89773 && [1/2] Building C object CMakeFiles/cmTC_89773.dir/src.c.o
+[2/2] Linking C executable cmTC_89773
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_16a84 && [1/2] Building C object CMakeFiles/cmTC_16a84.dir/src.c.o
+[2/2] Linking C executable cmTC_16a84
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f7405 && [1/2] Building C object CMakeFiles/cmTC_f7405.dir/src.c.o
+[2/2] Linking C executable cmTC_f7405
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WIMPLICIT_FALLTHROUGH succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_40e34 && [1/2] Building C object CMakeFiles/cmTC_40e34.dir/src.c.o
+[2/2] Linking C executable cmTC_40e34
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FDIAGNOSTICS_COLOR_ALWAYS succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4fefc && [1/2] Building C object CMakeFiles/cmTC_4fefc.dir/src.c.o
+[2/2] Linking C executable cmTC_4fefc
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c000f && [1/2] Building C object CMakeFiles/cmTC_c000f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c000f
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LINKER_SUPPORTS_VERSION_SCRIPT succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_14960 && [1/2] Building C object CMakeFiles/cmTC_14960.dir/src.c.o
+[2/2] Linking C executable cmTC_14960
+
+
+Source file was:
+int func(void) {return 0;} int main(int argc,char*argv[]){(void)argc;(void)argv;return func();}
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_GCC_ATOMICS succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f5883 && [1/2] Building C object CMakeFiles/cmTC_f5883.dir/src.c.o
+[2/2] Linking C executable cmTC_f5883
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_b40cf && [1/2] Building C object CMakeFiles/cmTC_b40cf.dir/src.c.o
+[2/2] Linking C executable cmTC_b40cf
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      __attribute__((visibility("default"))) int foo(void);
+      __attribute__((visibility("hidden")))  int bar(void);
+      int foo(void) { return 0; }
+      int bar(void) { return 1; }
+      int main(void) { return 0; }
+Performing C SOURCE FILE Test LINKER_SUPPORTS_WL_NO_UNDEFINED succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0067a && [1/2] Building C object CMakeFiles/cmTC_0067a.dir/src.c.o
+[2/2] Linking C executable cmTC_0067a
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_MMX succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c7ded && [1/2] Building C object CMakeFiles/cmTC_c7ded.dir/src.c.o
+[2/2] Linking C executable cmTC_c7ded
+
+
+Source file was:
+
+      #include <mmintrin.h>
+      void ints_add(int *dest, int *a, int *b, unsigned size) {
+        for (; size >= 2; size -= 2, dest += 2, a += 2, b += 2) {
+          *(__m64*)dest = _mm_add_pi32(*(__m64*)a, *(__m64*)b);
+        }
+      }
+      int main(int argc, char *argv[]) {
+        ints_add((int*)0, (int*)0, (int*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_12947 && [1/2] Building C object CMakeFiles/cmTC_12947.dir/src.c.o
+[2/2] Linking C executable cmTC_12947
+
+
+Source file was:
+
+      #include <xmmintrin.h>
+      void floats_add(float *dest, float *a, float *b, unsigned size) {
+        for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+          _mm_storeu_ps(dest, _mm_add_ps(_mm_loadu_ps(a), _mm_loadu_ps (b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        floats_add((float*)0, (float*)0, (float*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE2 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ecc2c && [1/2] Building C object CMakeFiles/cmTC_ecc2c.dir/src.c.o
+[2/2] Linking C executable cmTC_ecc2c
+
+
+Source file was:
+
+      #include <emmintrin.h>
+      void doubles_add(double *dest, double *a, double *b, unsigned size) {
+        for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+          _mm_store_pd(dest, _mm_add_pd(_mm_loadu_pd(a), _mm_loadu_pd(b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        doubles_add((double*)0, (double*)0, (double*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE3 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2df4a && [1/2] Building C object CMakeFiles/cmTC_2df4a.dir/src.c.o
+[2/2] Linking C executable cmTC_2df4a
+
+
+Source file was:
+
+      #include <pmmintrin.h>
+      void ints_add(int *dest, int *a, int *b, unsigned size) {
+        for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+          _mm_storeu_si128((__m128i*)dest, _mm_add_epi32(_mm_lddqu_si128((__m128i*)a), _mm_lddqu_si128((__m128i*)b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        ints_add((int*)0, (int*)0, (int*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE4_1 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_9b692 && [1/2] Building C object CMakeFiles/cmTC_9b692.dir/src.c.o
+[2/2] Linking C executable cmTC_9b692
+
+
+Source file was:
+
+      #include <smmintrin.h>
+      void ints_mul(int *dest, int *a, int *b, unsigned size) {
+        for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+          _mm_storeu_si128((__m128i*)dest, _mm_mullo_epi32(_mm_lddqu_si128((__m128i*)a), _mm_lddqu_si128((__m128i*)b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        ints_mul((int*)0, (int*)0, (int*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_SSE4_2 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_7b475 && [1/2] Building C object CMakeFiles/cmTC_7b475.dir/src.c.o
+[2/2] Linking C executable cmTC_7b475
+
+
+Source file was:
+
+      #include <nmmintrin.h>
+      unsigned calc_crc32c(const char *text, unsigned len) {
+          unsigned crc32c = ~0;
+          for (; len >= 4; len -= 4, text += 4) {
+            crc32c = (unsigned)_mm_crc32_u32(crc32c, *(unsigned*)text);
+          }
+          return crc32c;
+      }
+      int main(int argc, char **argv) {
+        calc_crc32c("SDL_SSE4",8);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2ddec && [1/2] Building C object CMakeFiles/cmTC_2ddec.dir/src.c.o
+[2/2] Linking C executable cmTC_2ddec
+
+
+Source file was:
+
+      #include <immintrin.h>
+      void floats_add(float *dest, float *a, float *b, unsigned size) {
+        for (; size >= 8; size -= 8, dest += 8, a += 8, b += 8) {
+          _mm256_storeu_ps(dest, _mm256_add_ps(_mm256_loadu_ps(a), _mm256_loadu_ps(b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        floats_add((float*)0, (float*)0, (float*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX2 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0875d && [1/2] Building C object CMakeFiles/cmTC_0875d.dir/src.c.o
+[2/2] Linking C executable cmTC_0875d
+
+
+Source file was:
+
+      #include <immintrin.h>
+      void ints_add(int *dest, int *a, int *b, unsigned size) {
+        for (; size >= 8; size -= 8, dest += 8, a += 8, b += 8) {
+          _mm256_storeu_si256((__m256i*)dest, _mm256_add_epi32(_mm256_loadu_si256((__m256i*)a), _mm256_loadu_si256((__m256i*)b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        ints_add((int*)0, (int*)0, (int*)0, 0);
+        return 0;
+      }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_AVX512F succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_77483 && [1/2] Building C object CMakeFiles/cmTC_77483.dir/src.c.o
+[2/2] Linking C executable cmTC_77483
+
+
+Source file was:
+
+      #include <immintrin.h>
+      void floats_add(float *dest, float *a, float *b, unsigned size) {
+        for (; size >= 16; size -= 16, dest += 16, a += 16, b += 16) {
+          _mm512_storeu_ps(dest, _mm512_add_ps(_mm512_loadu_ps(a), _mm512_loadu_ps(b)));
+        }
+      }
+      int main(int argc, char **argv) {
+        floats_add((float*)0, (float*)0, (float*)0, 0);
+        return 0;
+      }
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_081be && [1/2] Building C object CMakeFiles/cmTC_081be.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_081be
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_89a45 && [1/2] Building C object CMakeFiles/cmTC_89a45.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_89a45
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f7795 && [1/2] Building C object CMakeFiles/cmTC_f7795.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f7795
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_1047e && [1/2] Building C object CMakeFiles/cmTC_1047e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1047e
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a6da9 && [1/2] Building C object CMakeFiles/cmTC_a6da9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a6da9
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f669e && [1/2] Building C object CMakeFiles/cmTC_f669e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f669e
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8decb && [1/2] Building C object CMakeFiles/cmTC_8decb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8decb
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_fa3de && [1/2] Building C object CMakeFiles/cmTC_fa3de.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fa3de
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ae41d && [1/2] Building C object CMakeFiles/cmTC_ae41d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ae41d
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_14503 && [1/2] Building C object CMakeFiles/cmTC_14503.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_14503
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_d0d2c && [1/2] Building C object CMakeFiles/cmTC_d0d2c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d0d2c
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_26980 && [1/2] Building C object CMakeFiles/cmTC_26980.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_26980
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_13890 && [1/2] Building C object CMakeFiles/cmTC_13890.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_13890
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e6a97 && [1/2] Building C object CMakeFiles/cmTC_e6a97.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e6a97
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_717a5 && [1/2] Building C object CMakeFiles/cmTC_717a5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_717a5
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4746b && [1/2] Building C object CMakeFiles/cmTC_4746b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4746b
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_94247 && [1/2] Building C object CMakeFiles/cmTC_94247.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_94247
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f6cbb && [1/2] Building C object CMakeFiles/cmTC_f6cbb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f6cbb
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c78c9 && [1/2] Building C object CMakeFiles/cmTC_c78c9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c78c9
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8b9b3 && [1/2] Building C object CMakeFiles/cmTC_8b9b3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8b9b3
+
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f3c8f && [1/2] Building C object CMakeFiles/cmTC_f3c8f.dir/CheckFunctionExists.c.o
+<command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+[2/2] Linking C executable cmTC_f3c8f
+
+
+
+Determining if the abs exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_3bda0 && [1/2] Building C object CMakeFiles/cmTC_3bda0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3bda0
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acos exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_294dc && [1/2] Building C object CMakeFiles/cmTC_294dc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_294dc
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the acosf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_294cc && [1/2] Building C object CMakeFiles/cmTC_294cc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_294cc
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asin exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_dcb66 && [1/2] Building C object CMakeFiles/cmTC_dcb66.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dcb66
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the asinf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_635eb && [1/2] Building C object CMakeFiles/cmTC_635eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_635eb
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c0ac0 && [1/2] Building C object CMakeFiles/cmTC_c0ac0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c0ac0
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2 exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_dfc49 && [1/2] Building C object CMakeFiles/cmTC_dfc49.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dfc49
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atan2f exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_bcba8 && [1/2] Building C object CMakeFiles/cmTC_bcba8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bcba8
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atanf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8ee22 && [1/2] Building C object CMakeFiles/cmTC_8ee22.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8ee22
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atof exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2ea59 && [1/2] Building C object CMakeFiles/cmTC_2ea59.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ea59
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the atoi exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_24077 && [1/2] Building C object CMakeFiles/cmTC_24077.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_24077
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the bcopy exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_60af0 && [1/2] Building C object CMakeFiles/cmTC_60af0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_60af0
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceil exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_9d0bf && [1/2] Building C object CMakeFiles/cmTC_9d0bf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9d0bf
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ceilf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_d227d && [1/2] Building C object CMakeFiles/cmTC_d227d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d227d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysign exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_83eae && [1/2] Building C object CMakeFiles/cmTC_83eae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_83eae
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the copysignf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f16dc && [1/2] Building C object CMakeFiles/cmTC_f16dc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f16dc
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cos exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_cc6a5 && [1/2] Building C object CMakeFiles/cmTC_cc6a5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cc6a5
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the cosf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5804b && [1/2] Building C object CMakeFiles/cmTC_5804b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5804b
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Exit exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_1ea79 && [1/2] Building C object CMakeFiles/cmTC_1ea79.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1ea79
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the exp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_b9497 && [1/2] Building C object CMakeFiles/cmTC_b9497.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b9497
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the expf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a1880 && [1/2] Building C object CMakeFiles/cmTC_a1880.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a1880
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabs exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4dcad && [1/2] Building C object CMakeFiles/cmTC_4dcad.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4dcad
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fabsf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_9fbf3 && [1/2] Building C object CMakeFiles/cmTC_9fbf3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9fbf3
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floor exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5eec8 && [1/2] Building C object CMakeFiles/cmTC_5eec8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5eec8
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the floorf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4d5eb && [1/2] Building C object CMakeFiles/cmTC_4d5eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4d5eb
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmod exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_247b1 && [1/2] Building C object CMakeFiles/cmTC_247b1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_247b1
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fmodf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a43d4 && [1/2] Building C object CMakeFiles/cmTC_a43d4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a43d4
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fopen64 exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5de06 && [1/2] Building C object CMakeFiles/cmTC_5de06.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5de06
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fopen64
+  return ((int*)(&fopen64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_9999d && [1/2] Building C object CMakeFiles/cmTC_9999d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9999d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fseeko64 exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_88d92 && [1/2] Building C object CMakeFiles/cmTC_88d92.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_88d92
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko64
+  return ((int*)(&fseeko64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getenv exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_59802 && [1/2] Building C object CMakeFiles/cmTC_59802.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_59802
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a83a9 && [1/2] Building C object CMakeFiles/cmTC_a83a9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a83a9
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_05cf1 && [1/2] Building C object CMakeFiles/cmTC_05cf1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_05cf1
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10 exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_10c42 && [1/2] Building C object CMakeFiles/cmTC_10c42.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_10c42
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the log10f exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_984a6 && [1/2] Building C object CMakeFiles/cmTC_984a6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_984a6
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the logf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_700e5 && [1/2] Building C object CMakeFiles/cmTC_700e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_700e5
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lround exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8612c && [1/2] Building C object CMakeFiles/cmTC_8612c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8612c
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lroundf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c93ce && [1/2] Building C object CMakeFiles/cmTC_c93ce.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c93ce
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4669d && [1/2] Building C object CMakeFiles/cmTC_4669d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4669d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f66d6 && [1/2] Building C object CMakeFiles/cmTC_f66d6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f66d6
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memcpy exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_6c189 && [1/2] Building C object CMakeFiles/cmTC_6c189.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6c189
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_56d76 && [1/2] Building C object CMakeFiles/cmTC_56d76.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_56d76
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memset exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c27ff && [1/2] Building C object CMakeFiles/cmTC_c27ff.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c27ff
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the modf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e8585 && [1/2] Building C object CMakeFiles/cmTC_e8585.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e8585
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modf
+  return ((int*)(&modf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the modff exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c815b && [1/2] Building C object CMakeFiles/cmTC_c815b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c815b
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modff
+  return ((int*)(&modff))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pow exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4ee05 && [1/2] Building C object CMakeFiles/cmTC_4ee05.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4ee05
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the powf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ab577 && [1/2] Building C object CMakeFiles/cmTC_ab577.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ab577
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putenv exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8d1aa && [1/2] Building C object CMakeFiles/cmTC_8d1aa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8d1aa
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f44ae && [1/2] Building C object CMakeFiles/cmTC_f44ae.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f44ae
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the round exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5715c && [1/2] Building C object CMakeFiles/cmTC_5715c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5715c
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the roundf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2a176 && [1/2] Building C object CMakeFiles/cmTC_2a176.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2a176
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbn exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5e191 && [1/2] Building C object CMakeFiles/cmTC_5e191.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5e191
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the scalbnf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c5536 && [1/2] Building C object CMakeFiles/cmTC_c5536.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c5536
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_853e7 && [1/2] Building C object CMakeFiles/cmTC_853e7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_853e7
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sin exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_6a2c9 && [1/2] Building C object CMakeFiles/cmTC_6a2c9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a2c9
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sinf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ef9ca && [1/2] Building C object CMakeFiles/cmTC_ef9ca.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ef9ca
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrt exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_cd537 && [1/2] Building C object CMakeFiles/cmTC_cd537.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_cd537
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8e5b7 && [1/2] Building C object CMakeFiles/cmTC_8e5b7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8e5b7
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sscanf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c9ae2 && [1/2] Building C object CMakeFiles/cmTC_c9ae2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c9ae2
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strchr exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_71172 && [1/2] Building C object CMakeFiles/cmTC_71172.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_71172
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_245b8 && [1/2] Building C object CMakeFiles/cmTC_245b8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_245b8
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlen exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_bb7fa && [1/2] Building C object CMakeFiles/cmTC_bb7fa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bb7fa
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2f055 && [1/2] Building C object CMakeFiles/cmTC_2f055.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2f055
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_b236a && [1/2] Building C object CMakeFiles/cmTC_b236a.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b236a
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strpbrk exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_5c137 && [1/2] Building C object CMakeFiles/cmTC_5c137.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5c137
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strpbrk
+  return ((int*)(&strpbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strrchr exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_3ae8b && [1/2] Building C object CMakeFiles/cmTC_3ae8b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3ae8b
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strstr exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_d207d && [1/2] Building C object CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d207d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtod exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2b920 && [1/2] Building C object CMakeFiles/cmTC_2b920.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2b920
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8ba7c && [1/2] Building C object CMakeFiles/cmTC_8ba7c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8ba7c
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtol exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f951e && [1/2] Building C object CMakeFiles/cmTC_f951e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f951e
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_257a5 && [1/2] Building C object CMakeFiles/cmTC_257a5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_257a5
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoul exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_6dafb && [1/2] Building C object CMakeFiles/cmTC_6dafb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6dafb
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f2308 && [1/2] Building C object CMakeFiles/cmTC_f2308.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2308
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tan exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a85a4 && [1/2] Building C object CMakeFiles/cmTC_a85a4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a85a4
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the tanf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e60fa && [1/2] Building C object CMakeFiles/cmTC_e60fa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e60fa
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the trunc exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_114a2 && [1/2] Building C object CMakeFiles/cmTC_114a2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_114a2
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the truncf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_59739 && [1/2] Building C object CMakeFiles/cmTC_59739.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_59739
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8ae39 && [1/2] Building C object CMakeFiles/cmTC_8ae39.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8ae39
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_74650 && [1/2] Building C object CMakeFiles/cmTC_74650.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74650
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsscanf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a950e && [1/2] Building C object CMakeFiles/cmTC_a950e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a950e
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8a06d && [1/2] Building C object CMakeFiles/cmTC_8a06d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8a06d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcscmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_9b43b && [1/2] Building C object CMakeFiles/cmTC_9b43b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9b43b
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_98c5e && [1/2] Building C object CMakeFiles/cmTC_98c5e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_98c5e
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslen exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f3496 && [1/2] Building C object CMakeFiles/cmTC_f3496.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f3496
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c7eef && [1/2] Building C object CMakeFiles/cmTC_c7eef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c7eef
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcsstr exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_3c0a0 && [1/2] Building C object CMakeFiles/cmTC_3c0a0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3c0a0
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcstol exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c4b63 && [1/2] Building C object CMakeFiles/cmTC_c4b63.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c4b63
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstol
+  return ((int*)(&wcstol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_20c8b && [1/2] Building C object CMakeFiles/cmTC_20c8b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_20c8b
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LIBC_HAS_ISINF succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0eee3 && [1/2] Building C object CMakeFiles/cmTC_0eee3.dir/src.c.o
+[2/2] Linking C executable cmTC_0eee3
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isinf(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_ISINF_HANDLES_FLOAT succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_89a3e && [1/2] Building C object CMakeFiles/cmTC_89a3e.dir/src.c.o
+[2/2] Linking C executable cmTC_89a3e
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isinf(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISINFF succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_bb82a && [1/2] Building C object CMakeFiles/cmTC_bb82a.dir/src.c.o
+[2/2] Linking C executable cmTC_bb82a
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isinff(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISNAN succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_25ad2 && [1/2] Building C object CMakeFiles/cmTC_25ad2.dir/src.c.o
+[2/2] Linking C executable cmTC_25ad2
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isnan(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_ISNAN_HANDLES_FLOAT succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_b6180 && [1/2] Building C object CMakeFiles/cmTC_b6180.dir/src.c.o
+[2/2] Linking C executable cmTC_b6180
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isnan(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISNANF succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_4a573 && [1/2] Building C object CMakeFiles/cmTC_4a573.dir/src.c.o
+[2/2] Linking C executable cmTC_4a573
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isnanf(f);
+      }
+    
+Determining if the fdatasync exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_05c1f && [1/2] Building C object CMakeFiles/cmTC_05c1f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_05c1f
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostname exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0effe && [1/2] Building C object CMakeFiles/cmTC_0effe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0effe
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_82761 && [1/2] Building C object CMakeFiles/cmTC_82761.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_82761
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaction exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_46777 && [1/2] Building C object CMakeFiles/cmTC_46777.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_46777
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setjmp exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a4f12 && [1/2] Building C object CMakeFiles/cmTC_a4f12.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a4f12
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ec423 && [1/2] Building C object CMakeFiles/cmTC_ec423.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ec423
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gmtime_r exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_bd77e && [1/2] Building C object CMakeFiles/cmTC_bd77e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bd77e
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gmtime_r
+  return ((int*)(&gmtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the localtime_r exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_3daba && [1/2] Building C object CMakeFiles/cmTC_3daba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3daba
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localtime_r
+  return ((int*)(&localtime_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nl_langinfo exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_679b5 && [1/2] Building C object CMakeFiles/cmTC_679b5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_679b5
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <langinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nl_langinfo
+  return ((int*)(&nl_langinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c463d && [1/2] Building C object CMakeFiles/cmTC_c463d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c463d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getauxval exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c6e25 && [1/2] Building C object CMakeFiles/cmTC_c6e25.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c6e25
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getauxval
+  return ((int*)(&getauxval))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the poll exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_38850 && [1/2] Building C object CMakeFiles/cmTC_38850.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_38850
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memfd_create exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_23318 && [1/2] Building C object CMakeFiles/cmTC_23318.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_23318
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memfd_create
+  return ((int*)(&memfd_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_04917 && [1/2] Building C object CMakeFiles/cmTC_04917.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_04917
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test ICONV_IN_LIBC succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ce3db && [1/2] Building C object CMakeFiles/cmTC_ce3db.dir/src.c.o
+[2/2] Linking C executable cmTC_ce3db
+
+
+Source file was:
+
+        #define LIBICONV_PLUG 1 /* in case libiconv header is in include path */
+        #include <stddef.h>
+        #include <iconv.h>
+        int main(int argc, char **argv) {
+            return !iconv_open(NULL,NULL);
+        }
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_b377c && [1/2] Building C object CMakeFiles/cmTC_b377c.dir/src.c.o
+[2/2] Linking C executable cmTC_b377c
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_ST_MTIM succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_f6742 && [1/2] Building C object CMakeFiles/cmTC_f6742.dir/src.c.o
+[2/2] Linking C executable cmTC_f6742
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim);
+  return 0;
+}
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_1ddbd && [1/2] Building C object CMakeFiles/cmTC_1ddbd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1ddbd
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_O_CLOEXEC succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e80d3 && [1/2] Building C object CMakeFiles/cmTC_e80d3.dir/src.c.o
+[2/2] Linking C executable cmTC_e80d3
+
+
+Source file was:
+
+    #include <fcntl.h>
+    int flag = O_CLOEXEC;
+    int main(int argc, char **argv) { return 0; }
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_59b34 && [1/2] Building C object CMakeFiles/cmTC_59b34.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_59b34
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_a476b && [1/2] Building C object CMakeFiles/cmTC_a476b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_a476b
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_69ef4 && [1/2] Building C object CMakeFiles/cmTC_69ef4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_69ef4
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_cd22d && [1/2] Building C object CMakeFiles/cmTC_cd22d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_cd22d
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_962f2 && [1/2] Building C object CMakeFiles/cmTC_962f2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_962f2
+
+
+
+Determining if the shmat exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2857d && [1/2] Building C object CMakeFiles/cmTC_2857d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2857d
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/shm.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef shmat
+  return ((int*)(&shmat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_XGENERICEVENT succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_480c5 && [1/2] Building C object CMakeFiles/cmTC_480c5.dir/src.c.o
+[2/2] Linking C executable cmTC_480c5
+
+
+Source file was:
+
+          #include <X11/Xlib.h>
+          int main(int argc, char **argv) {
+            Display *display;
+            XEvent event;
+            XGenericEventCookie *cookie = &event.xcookie;
+            XNextEvent(display, &event);
+            XGetEventData(display, cookie);
+            XFreeEventData(display, cookie);
+            return 0; }
+Determining if the XkbLookupKeySym exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2375c && [1/2] Building C object CMakeFiles/cmTC_2375c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2375c
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <X11/Xlib.h>
+#include <X11/XKBlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef XkbLookupKeySym
+  return ((int*)(&XkbLookupKeySym))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_XINPUT2_MULTITOUCH succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_ce715 && [1/2] Building C object CMakeFiles/cmTC_ce715.dir/src.c.o
+[2/2] Linking C executable cmTC_ce715
+
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            int event_type = XI_TouchBegin;
+            XITouchClassInfo *t;
+            Status XIAllowTouchEvents(Display *a,int b,unsigned int c,Window d,int f) {
+              return (Status)0;
+            }
+            int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_XFIXES_H succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_48594 && [1/2] Building C object CMakeFiles/cmTC_48594.dir/src.c.o
+[2/2] Linking C executable cmTC_48594
+
+
+Source file was:
+
+            #include <X11/Xlib.h>
+            #include <X11/Xproto.h>
+            #include <X11/extensions/XInput2.h>
+            #include <X11/extensions/Xfixes.h>
+            BarrierEventID b;
+            int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGL_EGL succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_99825 && [1/2] Building C object CMakeFiles/cmTC_99825.dir/src.c.o
+[2/2] Linking C executable cmTC_99825
+
+
+Source file was:
+
+        #define EGL_API_FB
+        #define MESA_EGL_NO_X11_HEADERS
+        #define EGL_NO_X11
+        #include <EGL/egl.h>
+        #include <EGL/eglext.h>
+        int main (int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_OPENGLES_V2 succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_2f7df && [1/2] Building C object CMakeFiles/cmTC_2f7df.dir/src.c.o
+[2/2] Linking C executable cmTC_2f7df
+
+
+Source file was:
+
+      #include <GLES2/gl2.h>
+      #include <GLES2/gl2ext.h>
+      int main (int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_LINUX_INPUT_H succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_eab6a && [1/2] Building C object CMakeFiles/cmTC_eab6a.dir/src.c.o
+[2/2] Linking C executable cmTC_eab6a
+
+
+Source file was:
+
+        #include <linux/input.h>
+        #ifndef EVIOCGNAME
+        #error EVIOCGNAME() ioctl not available
+        #endif
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_INPUT_KD succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e0ccb && [1/2] Building C object CMakeFiles/cmTC_e0ccb.dir/src.c.o
+[2/2] Linking C executable cmTC_e0ccb
+
+
+Source file was:
+
+          #include <linux/kd.h>
+          #include <linux/keyboard.h>
+          #include <sys/ioctl.h>
+          int main(int argc, char **argv) {
+              struct kbentry kbe;
+              kbe.kb_table = KG_CTRL;
+              ioctl(0, KDGKBENT, &kbe);
+              return 0;
+          }
+Performing C SOURCE FILE Test HAVE_LINUX_VIDEODEV2_H succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_083cf && [1/2] Building C object CMakeFiles/cmTC_083cf.dir/src.c.o
+[2/2] Linking C executable cmTC_083cf
+
+
+Source file was:
+
+          #include <linux/videodev2.h>
+          int main(int argc, char** argv) { return 0; }
+Determining if the include file sys/inotify.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_6abae && [1/2] Building C object CMakeFiles/cmTC_6abae.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6abae
+
+
+
+Determining if the inotify_init exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_82d27 && [1/2] Building C object CMakeFiles/cmTC_82d27.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_82d27
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init
+  return ((int*)(&inotify_init))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inotify_init1 exist passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_297fc && [1/2] Building C object CMakeFiles/cmTC_297fc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_297fc
+
+
+File /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/inotify.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inotify_init1
+  return ((int*)(&inotify_init1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_76927 && [1/2] Building C object CMakeFiles/cmTC_76927.dir/src.c.o
+[2/2] Linking C executable cmTC_76927
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_578b0 && [1/2] Building C object CMakeFiles/cmTC_578b0.dir/src.c.o
+[2/2] Linking C executable cmTC_578b0
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0d657 && [1/2] Building C object CMakeFiles/cmTC_0d657.dir/src.c.o
+[2/2] Linking C executable cmTC_0d657
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test COMPILER_HAS_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_e86e0 && [1/2] Building C object CMakeFiles/cmTC_e86e0.dir/src.c.o
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/src.c:5:19: warning: argument 1 null where non-null expected [-Wnonnull]
+    5 |                   sem_timedwait(NULL, NULL);
+      |                   ^~~~~~~~~~~~~
+In file included from /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/src.c:3:
+/usr/include/semaphore.h:63:12: note: in a call to function ‘sem_timedwait’ declared ‘nonnull’
+   63 | extern int sem_timedwait (sem_t *__restrict __sem,
+      |            ^~~~~~~~~~~~~
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/src.c:5:19: warning: argument 2 null where non-null expected [-Wnonnull]
+    5 |                   sem_timedwait(NULL, NULL);
+      |                   ^~~~~~~~~~~~~
+In file included from /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp/src.c:3:
+/usr/include/semaphore.h:63:12: note: in a call to function ‘sem_timedwait’ declared ‘nonnull’
+   63 | extern int sem_timedwait (sem_t *__restrict __sem,
+      |            ^~~~~~~~~~~~~
+[2/2] Linking C executable cmTC_e86e0
+
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_0dbde && [1/2] Building C object CMakeFiles/cmTC_0dbde.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0dbde
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_7c716 && [1/2] Building C object CMakeFiles/cmTC_7c716.dir/src.c.o
+[2/2] Linking C executable cmTC_7c716
+
+
+Source file was:
+
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              #ifdef __APPLE__
+              pthread_setname_np("");
+              #else
+              pthread_setname_np(pthread_self(),"");
+              #endif
+              return 0;
+            }
+Determining if the function clock_gettime exists in the c passed with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_7e18c && [1/2] Building C object CMakeFiles/cmTC_7e18c.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_7e18c
+
+
+
+Performing C SOURCE FILE Test HAVE_ENABLE_NEW_DTAGS succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_8b851 && [1/2] Building C object CMakeFiles/cmTC_8b851.dir/src.c.o
+[2/2] Linking C executable cmTC_8b851
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_POSIX_SPAWN succeeded with the following output:
+Change Dir: /home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/mcditoos/anaconda3/bin/ninja cmTC_c79ef && [1/2] Building C object CMakeFiles/cmTC_c79ef.dir/src.c.o
+[2/2] Linking C executable cmTC_c79ef
+
+
+Source file was:
+
+#include <spawn.h>
+#include <unistd.h>
+
+int main(void)
+{
+    int pipes[2];
+    int pid;
+
+    const char * args[] = {
+      "/bin/false",
+      NULL
+    };
+
+    const char * env[] = { NULL };
+
+    pipe(pipes);
+
+    posix_spawnattr_t attr;
+    posix_spawn_file_actions_t fa;
+
+    posix_spawnattr_init(&attr);
+    posix_spawn_file_actions_init(&fa);
+
+    posix_spawn_file_actions_addclose(&fa, pipes[0]);
+    posix_spawn_file_actions_adddup2(&fa, pipes[1], STDOUT_FILENO);
+
+    posix_spawn(&pid, args[0], &fa, &attr, (char * const *) args, (char * const *) env);
+    posix_spawnp(&pid, args[0], &fa, &attr, (char * const *) args, (char * const *) env);
+
+    posix_spawn_file_actions_destroy(&fa);
+    posix_spawnattr_destroy(&attr);
+
+    return 0;
+}
+

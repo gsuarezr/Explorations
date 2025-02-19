@@ -1,0 +1,8 @@
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/gol.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/edit_cache.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/CMakeFiles/rebuild_cache.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/SDL/CMakeFiles/SDL3-shared.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/SDL/CMakeFiles/SDL3_test.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/SDL/CMakeFiles/SDL_uclibc.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/SDL/CMakeFiles/edit_cache.dir
+/home/mcditoos/Explorations/math_viz/game_of_life/c/build/SDL/CMakeFiles/rebuild_cache.dir
