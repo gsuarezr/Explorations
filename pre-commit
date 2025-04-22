@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Convert all Jupyter notebooks to Markdown
+find . -name "*.ipynb" -not -path "./.ipynb_checkpoints/*" | while read -r notebook; do
+    jupytext --to md "$notebook" && rm "$notebook"
+done
+
+# Add the new Markdown files to the commit
+git add "."

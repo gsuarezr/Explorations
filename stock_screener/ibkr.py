@@ -1,6 +1,6 @@
 # Data for the Flex queries
-TOKEN = "83191847859487227934479"
-QUERYID = "766957"
+TOKEN = "85350063598079365178280"
+QUERYID = "1033231"
 # Import require libraries
 import requests
 import xml.etree.ElementTree as ET
@@ -21,13 +21,12 @@ STMT_URL = FLEX_URL + "FlexStatementService.GetStatement"
 
 # The main part of this file the IBKR class to obtain my portfolio data
 class IBKR:
-    def __init__(self, TOKEN, QUERYID,file):
+    def __init__(self, TOKEN, QUERYID):
         self.FLEX_URL = "https://gdcdyn.interactivebrokers.com/Universal/servlet/"
         self.REQUEST_URL = FLEX_URL + "FlexStatementService.SendRequest"
         self.STMT_URL = FLEX_URL + "FlexStatementService.GetStatement"
         self.TOKEN = TOKEN
         self.QUERYID = QUERYID
-        self.file =file
 
     def submit_request(self, url: str, token: str, query: str) -> requests.Response:
         """Post a query to the API access point, along with an authentication token.
@@ -37,8 +36,7 @@ class IBKR:
         TIMEOUT_INCREMENT = 5
         response = None
         req_count = 1
-        if self.file:
-            return self.file
+
         while not response:
             try:
                 response = requests.get(
@@ -63,11 +61,7 @@ class IBKR:
         response = self.submit_request(
             url=self.REQUEST_URL, token=self.TOKEN, query=self.QUERYID
         )
-        if self.file:
-            tree = ET.parse(self.file)
-            root = tree.getroot()
-            self.root = root
-            return 
+
         elem = ET.fromstring(response.content)
         data = {child.tag: child.text for child in elem}
         reference = data["ReferenceCode"]
@@ -235,3 +229,65 @@ class IBKR:
         portfolio = self.portfolio.reset_index()
         portfolio["sector"] = data.reset_index()["sector"]
         self.portfolio = portfolio
+    
+    def to_dataframe(self):
+        """
+        Converts self.data (list of XML elements with attributes) into a DataFrame.
+        """
+        if not self.data:
+            raise ValueError("No parsed data available. Run get_data() first.")
+
+        self.df = pd.DataFrame([el.attrib for el in self.data if el.attrib])
+        return self.df
+    def get_cashflow(self):
+        frame = self.get_bytag("CashTransaction")
+        frame = frame[frame.type == "Deposits/Withdrawals"][
+            ["reportDate", "amount"]
+        ].drop_duplicates()
+        data_types = {"amount": float, "reportDate": "datetime64[ns]"}
+        frame = frame.astype(data_types)
+        return frame
+
+
+    def build_returns(self):
+        """Maybe I should get that by individual stocks
+        Does not seem possible from the API"""
+        cashflow = self.get_cashflow()
+        value = self.get_valueByDate()
+        merged_data = pd.merge(value, cashflow, on="reportDate", how="outer").sort_values(
+            "reportDate"
+        )
+        merged_data = merged_data[merged_data["reportDate"] > "2023-01-10"]
+        merged_data["cash"] = merged_data["cash"].fillna(0).astype("float")
+        merged_data["amount"] = merged_data["amount"].fillna(0).astype("float")
+        merged_data["cash"] = merged_data["cash"].fillna(0).astype("float")
+        merged_data["total"] = merged_data[["stock", "cash"]].sum(axis=1)
+        merged_data["returns"] = (
+            merged_data["total"] - (merged_data["total"].shift(1) + merged_data["amount"])
+        ) / (merged_data["total"].shift(1) + merged_data["amount"])
+        merged_data["returns"] = merged_data["returns"].fillna(0)
+        merged_data["returns"] = merged_data["returns"].replace(np.inf, 0).replace("nan",0)
+
+        merged_data["weighted_returns"] = 1 + merged_data["returns"]
+        merged_data["cumulative_returns"] = merged_data["weighted_returns"].cumprod()
+        merged_data["TWR"] = merged_data["weighted_returns"].cumprod() - 1
+        return merged_data
+
+
+    def get_valueByDate(self):
+        frame = self.get_bytag("EquitySummaryByReportDateInBase")[
+            ["reportDate", "cash", "stock"]
+        ]
+        data_types = {"cash": float, "stock": float, "reportDate": "datetime64[ns]"}
+        frame = frame.astype(data_types).groupby(by="reportDate").sum().reset_index()
+        return frame
+    def get_sp500_returns(self, start, end):
+        """
+        Download S&P 500 (SPY) adjusted close and compute cumulative return.
+        """
+        spy = yf.download("^GSPC", start=start, end=end)
+        spy['Return'] = spy['Adj Close'].pct_change().fillna(0)
+        spy['Cumulative Return'] = (1 + spy['Return']).cumprod()
+        return spy['Cumulative Return'], spy.index
+
+   

@@ -21,10 +21,14 @@ def fetchdata():
     div = ibkr.dividends
     ibkr.get_current_porfolio()
     data = ibkr.portfolio
-    return div, data, ibkr
+    mergedData = ibkr.build_returns()
+    first_date = pd.to_datetime(mergedData["reportDate"].iloc[0])
+    last_date = pd.to_datetime(mergedData["reportDate"].iloc[-1])
+    #spy_return, spy_dates = ibkr.get_sp500_returns(first_date, last_date)
+    return div, data, ibkr,mergedData#,spy_return,spy_dates
 
 
-div, data, ibkr = fetchdata()
+div, data, ibkr,mergedData = fetchdata()
 
 st.sidebar.image("logo.png")
 
@@ -77,6 +81,21 @@ if panel == "Porfolio Summary":
         f"Current PnL: {np.round((currentcash+stockstotal-initial)/initial *100,2)} %"
     )
     st.caption(f"Earned from dividends: {div[~mask].usd_div.sum().round(2)}")
+
+
+    # df_spy = pd.DataFrame({
+    #     'Date': spy_dates,
+    #     'Return': spy_return / spy_return.iloc[0] - 1,
+    #     'Type': 'S&P 500 (SPY)'
+    # })
+    df_portfolio = pd.DataFrame({
+        'Date': mergedData["reportDate"],
+        'Return': mergedData["TWR"].astype(float),
+        'Type': 'My Portfolio'
+    })
+
+    # Combine the datasets
+    #combined_df = pd.concat([df_portfolio, df_spy])
 
     ## Plot for positions and percentages
     fig = px.pie(
@@ -134,7 +153,39 @@ if panel == "Porfolio Summary":
     fig3.update_layout(font={"size": 18})
     st.plotly_chart(fig3)
 
+    st.title("Performance")
 
+    fig4 = px.line(
+        df_portfolio, 
+        x='Date', 
+        y='Return', 
+        color='Type',
+        line_dash='Type',  # Use dashed line for SPY
+        line_dash_map={'My Portfolio': None, 'S&P 500 (SPY)': 'dash'},
+        line_shape='linear',
+        title='📈 Cumulative Returns: Portfolio vs. S&P 500',
+        labels={'Return': 'Cumulative Return', 'Date': 'Date'}
+    )
+
+    # Customize the layout
+    fig4.update_layout(
+        legend_title_text='',
+        hovermode='x unified',
+        xaxis_title='Date',
+        yaxis_title='Cumulative Return',
+        yaxis_tickformat='.1%',  # Format y-axis as percentage
+        template='plotly_white',  # Clean white template with grid
+    )
+
+    # Make portfolio line thicker
+    fig4.update_traces(
+        line=dict(width=3),
+        selector=dict(name='My Portfolio')
+    )
+
+    # Display the figure
+    st.plotly_chart(fig4)
+    st.dataframe(mergedData.dropna())
 if panel == "Dividends":
     st.header("Dividend information by source")
 
